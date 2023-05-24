@@ -3,7 +3,8 @@ package ru.skypro.homework.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.skypro.lessons.springboot.weblibrary.service.CounterService;
+import ru.skypro.homework.service.CounterService;
+
 
 @RestController
 @RequestMapping
